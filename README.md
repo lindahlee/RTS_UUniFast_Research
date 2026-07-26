@@ -1,5 +1,30 @@
-# Real_Time_Systems_
+# ⏱️ Real_Time_Systems_
 
-This code connects to a research report that provides a clear and structured overview of three core components in real-time systems: task generation, scheduling simulation, and schedulability analysis. First in Exercise H, 100 periodic task sets are generated using the UUniFast algorithm to a achieve a target total utilization between 0 and 1 while supporting both implicit and constrained deadlines. Then in Exercise J, real time scheduling policies such as FCPS, SJR, RM, and EDF are simulated to observe runtime behavior and detect missed deadlines. Finally in Exercise L, four schedulability tests are implemented: EDF utilization analysis for implicit deadlines, Rate Monotonic (RM) response-time analysis (RTA) for implicit deadlines, EDF demand-based analysis for constrained deadlines, and Deadline Monotonic (DM) response time analysis (RTA) for constrained deadlines. Together, these results will show consistent agreement between simulation outcomes and theoretical schedulability tests, providing a greater understanding of how real-time feasibility can be evaluated experimentally. 
+This repository accompanies a research report that provides a clear, structured overview of three core components of real-time systems: **task generation**, **scheduling simulation**, and **schedulability analysis**.
 
-FULL RESEARCH ON "FullResearchReport" file in this repository
+## 📋 Overview
+
+### 🎲 Exercise H — Task Generation
+100 periodic task sets are generated using the **UUniFast algorithm** to achieve a target total utilization between 0 and 1, supporting both implicit and constrained deadlines.
+
+### ⚙️ Exercise J — Scheduling Simulation
+Real-time scheduling policies are simulated to observe runtime behavior and catch missed deadlines:
+- 🥇 **FCFS** — First-Come-First-Served
+- ⏳ **SJF** — Shortest Job First
+- 🔁 **RM** — Rate Monotonic
+- 🎯 **EDF** — Earliest Deadline First
+
+### ✅ Exercise L — Schedulability Analysis
+Four schedulability tests are implemented:
+- 📈 EDF utilization analysis for implicit deadlines
+- 📊 Rate Monotonic (RM) response-time analysis (RTA) for implicit deadlines
+- 🧮 EDF demand-based analysis for constrained deadlines
+- ⏲️ Deadline Monotonic (DM) response-time analysis (RTA) for constrained deadlines
+
+## 🎉 Summary
+
+Together, these results show **consistent agreement** between simulation outcomes and theoretical schedulability tests — offering a deeper, hands-on understanding of how real-time feasibility can be evaluated experimentally. 🚀
+
+## 📄 Full Report
+
+See the `FullResearchReport` file in this repository for complete methodology, results, and discussion. 🔍
