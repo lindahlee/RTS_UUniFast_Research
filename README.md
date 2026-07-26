@@ -27,4 +27,6 @@ Together, these results show **consistent agreement** between simulation outcome
 
 ## 📄 Full Report
 
-See the `FullResearchReport` file in this repository for complete methodology, results, and discussion. 🔍
+See the `RTSFinalResearchLinda` file in this repository for complete methodology, results, and discussion. 🔍
+
+In addition, I've provided some of my test files linked to my research analysis for further support. 
