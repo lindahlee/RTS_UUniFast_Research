@@ -1,4 +1,4 @@
-# ⏱️ Real_Time_Systems_
+# ⏱️ Real Time Systems UUniFast Algorithm Research 
 
 This repository accompanies a research report that provides a clear, structured overview of three core components of real-time systems: **task generation**, **scheduling simulation**, and **schedulability analysis**.
 
